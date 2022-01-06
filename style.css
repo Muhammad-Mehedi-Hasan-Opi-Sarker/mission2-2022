@@ -2,11 +2,16 @@
     color: orange;
     font-size: 60px;
 }
-#font-size{
+.font-size{
     font-size: 60px;
 }
-section{
+#font-style{
+    font-size: 60px;
+    text-align:center
+}
+.flexible-container{
     display: flex;
+    margin-bottom: 100px;
 }
 .word-image{
     width: 40%;
@@ -16,8 +21,64 @@ section{
     width: 80%;
     padding-left: 7%;
 }
+#word1-image{
+    width: 30%;
+    height: 40%;
+    padding-left: 10%;
+    box-shadow: 5px 10px 10px gray;
+    padding: 3%;
+    border-radius: 5%;
+    margin-left: 3%;
+    margin-right: 3%;
+    background-color: gray;
+
+}
+#word1-image img{
+    width: 50%;
+    padding-left: 7%;
+}
+#word2-image{
+    width: 30%;
+    height: 40%;
+    padding-left: 10%;
+    box-shadow: 5px 10px 10px gray;
+    padding: 3%;
+    border-radius: 5%;
+    margin-left: 3%;
+    margin-right: 3%;
+    background-color: rgb(220, 231, 220);
+}
+#word2-image img{
+    width: 50%;
+    padding-left: 7%;
+}
+#word3-image{
+    width: 30%;
+    height: 40%;
+    padding-left: 10%;
+    box-shadow: 5px 10px 10px gray;
+    padding: 3%;
+    border-radius: 5%;
+    margin-left: 3%;
+    margin-right: 3%;
+    background-color: khaki;
+}
+#word3-image img{
+    width: 50%;
+    padding-left: 7%;
+}
 .button{
     color: white;
     background-image: linear-gradient(rgb(177, 39, 39),rgb(238, 87, 0));
     text-decoration: none;
+    width: 40%;
+    height: 5%;
+    padding: 5px;
+}
+#word-image-id{
+    width: 40%;
+    padding-right: 5px;
+}
+.font{
+    font-size: 30px;
 }
