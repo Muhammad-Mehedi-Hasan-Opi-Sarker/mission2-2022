@@ -1,6 +1,12 @@
 .orange{
     color: orange;
-    font-size: 60px;
+   
+}
+.left-border{
+    border-left: 4px solid;
+    border-color: #371c99;
+    border-image-slice: 1;
+    padding: 1%;
 }
 .font-size{
     font-size: 60px;
@@ -81,4 +87,16 @@
 }
 .font{
     font-size: 30px;
+}
+#fotter-backgorund{
+    background-color: black;
+}
+.fotter-degin{
+    text-align: center;
+}
+.font-fotter{
+    color: white;
+}
+#fotter-text{
+    color: white;
 }
