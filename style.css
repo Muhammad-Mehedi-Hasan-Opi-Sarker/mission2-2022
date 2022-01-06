@@ -1,0 +1,23 @@
+.orange{
+    color: orange;
+    font-size: 60px;
+}
+#font-size{
+    font-size: 60px;
+}
+section{
+    display: flex;
+}
+.word-image{
+    width: 40%;
+    padding-left: 10%;
+}
+.word-image img{
+    width: 80%;
+    padding-left: 7%;
+}
+.button{
+    color: white;
+    background-image: linear-gradient(rgb(177, 39, 39),rgb(238, 87, 0));
+    text-decoration: none;
+}
